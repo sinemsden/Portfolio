@@ -5,8 +5,9 @@
   "main": "server.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && touch out/.nojekyll",
-    "start": "NODE_ENV=production node server.js"
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "framer-motion": "^12.23.24",
