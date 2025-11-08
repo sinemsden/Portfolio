@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small additional styles used by the original file */
+html, body, #__next {
+  height: 100%;
+}
+
+.size-4 { width: 1rem; height: 1rem; }
+.size-8 { width: 2rem; height: 2rem; }
+.size-64 { width: 16rem; height: 16rem; }
+.size-80 { width: 20rem; height: 20rem; }
+.inline { display: inline-block; }
