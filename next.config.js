@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
+  distDir: 'out',
   images: {
     dangerouslyAllowSVG: true,
     contentDispositionType: 'attachment',
@@ -10,6 +11,7 @@ const nextConfig = {
   },
   basePath: '/Portfolio',
   assetPrefix: '/Portfolio',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig;
